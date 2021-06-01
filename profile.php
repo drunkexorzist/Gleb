@@ -9,12 +9,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Профиль</title>
     <link rel="stylesheet" href="style/css.css">
+    <style>
+        .p_1{
+            margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+    </style>
 </head>
 <body>
     <h1>Профиль</h1>
-    <form>
-        <p><?=$_SESSION['user']['login']?></p>
-        <p><?=$_SESSION['user']['email']?></p>
+    <form class="p_1">
+        <span>Login:  </span><span><?=$_SESSION['user']['login']?></span>
+        <br>
+        <span>Email:  </span><span><?=$_SESSION['user']['email']?></span>
     </form>
 </body>
 </html>
