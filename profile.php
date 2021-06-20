@@ -10,16 +10,16 @@
     <title>Профиль</title>
     <link rel="stylesheet" href="style/css.css">
     <style>
-        .p_1{
-            margin-top: 30px;
-    font-size: 30px;
-    text-align: center;
-}
+        .P1{
+            text-align: center;
+            font-size: 24px;
+            margin-top: 15px;
+        }
     </style>
 </head>
 <body>
     <h1>Профиль</h1>
-    <form class="p_1">
+    <form class="P1">
         <span>Login:  </span><span><?=$_SESSION['user']['login']?></span>
         <br>
         <span>Email:  </span><span><?=$_SESSION['user']['email']?></span>
